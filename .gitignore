@@ -1,0 +1,50 @@
+# CMake build directories
+build/
+build-*/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+CTestTestfile.cmake
+Testing/
+_deps/
+
+# Compiled objects and binaries
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+
+# Benchmark and profiling output
+perf.data
+perf.data.old
+callgrind.out.*
+*.prof
+*.gcda
+*.gcno
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.clangd/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local tooling
+.cache/
+
+# Project guide (local learning page)
+guide/
